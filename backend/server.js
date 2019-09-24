@@ -29,14 +29,27 @@ function getLocations(req) {
 }
 
 function getEarth(req) {
+  // const results = [];
 
-  let fileContent = fs.readFileSync('../data/earthquake.csv', {encoding: 'utf8'});
+  // fs.createReadStream('../data/earthquake.csv')
+  // .pipe(csv())
+  // .on('data', (data) => {
+  //   results.push(data);
+  //   console.log(results);
+  // })
+  // .on('end', () => {
+  //   // console.log("Hi");
+  //   console.log("finished");
+  //  return results
+  // });
+
+  let fileContent = fs.readFileSync('../data/earthquake.json', {encoding: 'utf8'});
   return fileContent
 }
 
 function getLoans(req) {
 
-  let fileContent = fs.readFileSync('../data/Loan_payments_data.csv', {encoding: 'utf8'});
+  let fileContent = fs.readFileSync('../data/Loan_payments_data.json', {encoding: 'utf8'});
   return fileContent
 }
 
