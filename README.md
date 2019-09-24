@@ -1,15 +1,15 @@
-** Data Dashboard **
+# Data Dashboard
 
 This single page application pulls in 3 data sources and displays the data in a easy to understand format using React js to create the user interface.
 
 The user can navigate to different routes using the navigation bar on the page to view rhe following:
 
-1. ** Lowe's location data **: displayed as markers on a Google Map
+1. **Lowe's location data**: displayed as markers on a Google Map
   - to view map a Google Maps JavaScript API key is needed
 
-2. ** Earthquake Data **: displayed in a easy to view table
+2. **Earthquake Data**: displayed in a easy to view table
 
-3. ** Loan Data **: displayed in a easy to view table
+3. **Loan Data**: displayed in a easy to view table
 _____________________________________________________________
 
 
